@@ -5,9 +5,9 @@ module.exports = app => {
   //create lang
   router.post("/", languages.create);
 
+  //get all lang
+
   router.get("/", languages.findAll);
-
-
 
   app.use('/api/language', router);
 
